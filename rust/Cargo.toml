@@ -1,0 +1,11 @@
+[package]
+name = "scrcpy_scan"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+regex = "1"
+
+[profile.release]
+lto = true
+codegen-units = 1
